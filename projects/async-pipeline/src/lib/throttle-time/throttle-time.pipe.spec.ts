@@ -1,4 +1,4 @@
-import { ThrottleTimePipe } from './throttleTime.pipe';
+import { ThrottleTimePipe } from './throttle-time.pipe';
 import { getTestScheduler, cold } from 'jasmine-marbles';
 
 describe('ThrottleTimePipe', () => {

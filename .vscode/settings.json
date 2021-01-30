@@ -1,0 +1,14 @@
+{
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"files.trimFinalNewlines": true,
+	"files.insertFinalNewline": true,
+	"html.format.wrapAttributes": "force",
+	"scssFormatter.singleQuote": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"typescript.suggest.completeJSDocs": true,
+	"editor.detectIndentation": false
+}

@@ -4,11 +4,9 @@ import { throttle } from 'rxjs/operators';
 
 @Pipe({ name: 'throttle', pure: true })
 export class ThrottlePipe<T> implements PipeTransform {
-
-  transform(stream: Observable<T>, durationSelector: (value: T) => SubscribableOrPromise<any>): Observable<T> {
-    return stream.pipe(
-      throttle(durationSelector),
-    );
-  }
+	transform(stream: Observable<T>, durationSelector: (value: T) => SubscribableOrPromise<any>): Observable<T> {
+		return stream.pipe(
+			throttle(durationSelector),
+		);
+	}
 }
-
