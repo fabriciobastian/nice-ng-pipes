@@ -4,8 +4,8 @@
 		"outDir": "../../out-tsc/app",
 		"types": [],
 		"paths": {
-			"ngx-async-pipeline": [
-				"dist/async-pipeline"
+			"nice-ng-pipes": [
+				"dist/nice-ng-pipes"
 			]
 		}
 	},
