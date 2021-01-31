@@ -27,25 +27,28 @@ export class AppModule {}
 
 ### Async
 
+#### RxJS
 - [debounce](https://rxjs.dev/api/operators/debounce)
-- [debounceTime](#debouncetimepipe)
-- [delay](#delaypipe)
-- [distinctUntilChanged](#distinctuntilchangedpipe)
-- [first](#firstpipe)
-- [last](#lastpipe)
-- [mapTo](#maptopipe)
-- [pairwise](#pairwisepipe)
-- [skip](#skippipe)
-- [skipLast](#skiplastpipe)
+- [debounceTime](https://rxjs.dev/api/operators/debounceTime)
+- [delay](https://rxjs.dev/api/operators/delay)
+- [distinctUntilChanged](https://rxjs.dev/api/operators/distinctUntilChanged)
+- [first](https://rxjs.dev/api/operators/first)
+- [last](https://rxjs.dev/api/operators/last)
+- [mapTo](https://rxjs.dev/api/operators/mapTo)
+- [pairwise](https://rxjs.dev/api/operators/pairwise)
+- [skip](https://rxjs.dev/api/operators/skip)
+- [skipLast](https://rxjs.dev/api/operators/skipLast)
 - [skipUntil](https://rxjs.dev/api/operators/skipUntil)
 - [skipWhile](https://rxjs.dev/api/operators/skipWhile)
-- [take](#takepipe)
-- [takeLast](#takelastpipe)
+- [take](https://rxjs.dev/api/operators/take)
+- [takeLast](https://rxjs.dev/api/operators/takeLast)
 - [takeUntil](https://rxjs.dev/api/operators/takeUntil)
 - [takeWhile](https://rxjs.dev/api/operators/takeWhile)
-- [throttle](#throttlepipe)
+- [throttle](https://rxjs.dev/api/operators/throttle)
 - [throttleTime](https://rxjs.dev/api/operators/throttleTime)
-- [length](#lengthpipe)
-- [log](#logpipe)
-- [not](#notpipe)
-- [get](#getpipe)
+
+#### Custom
+- [length]
+- [log]
+- [not]
+- [get]
