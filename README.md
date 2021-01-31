@@ -5,7 +5,7 @@ Forked from Tibing/async-pipeline
 - Import required modules:
 ```typescript
 import { CommonModule } from '@angular/common';
-import { NotModule, LengthModule, SkipModule } from 'ng-nice-pipes';
+import { NotModule, LengthModule, SkipModule } from 'nice-ng-pipes';
 
 @NgModule({
   imports: [
