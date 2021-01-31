@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { LengthModule, NotModule, SkipModule } from 'nice-ng-pipes';
+import { LengthPipeModule, LogPipeModule, NotPipeModule, SkipPipeModule } from 'nice-ng-pipes';
 
 @NgModule({
 	declarations: [
@@ -10,9 +10,10 @@ import { LengthModule, NotModule, SkipModule } from 'nice-ng-pipes';
 	],
 	imports: [
 		BrowserModule,
-		LengthModule,
-		NotModule,
-		SkipModule,
+		LengthPipeModule,
+		NotPipeModule,
+		SkipPipeModule,
+		LogPipeModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

@@ -4,11 +4,9 @@ import { map } from 'rxjs/operators';
 
 @Pipe({ name: 'not', pure: true })
 export class NotPipe implements PipeTransform {
-
-  transform(stream: Observable<boolean | number>): Observable<boolean> {
-    return stream.pipe(
-      map((value: boolean | number) => !value),
-    );
-  }
+	transform(stream: Observable<boolean | number>): Observable<boolean> {
+		return stream.pipe(
+			map((value: boolean | number) => !value),
+		);
+	}
 }
-

@@ -4,11 +4,9 @@ import { skipWhile } from 'rxjs/operators';
 
 @Pipe({ name: 'skipWhile', pure: true })
 export class SkipWhilePipe<T> implements PipeTransform {
-
-  transform(stream: Observable<T>, predicate: (value: T, index: number) => boolean): Observable<T> {
-    return stream.pipe(
-      skipWhile(predicate),
-    );
-  }
+	transform(stream: Observable<T>, predicate: (value: T, index: number) => boolean): Observable<T> {
+		return stream.pipe(
+			skipWhile(predicate),
+		);
+	}
 }
-

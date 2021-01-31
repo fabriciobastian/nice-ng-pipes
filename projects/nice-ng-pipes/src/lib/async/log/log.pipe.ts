@@ -4,11 +4,9 @@ import { tap } from 'rxjs/operators';
 
 @Pipe({ name: 'log', pure: true })
 export class LogPipe<T> implements PipeTransform {
-
-  transform(stream: Observable<T>): Observable<T> {
-    return stream.pipe(
-      tap(console.log.bind(console)),
-    );
-  }
+	transform(stream: Observable<T>): Observable<T> {
+		return stream.pipe(
+			tap(console.log.bind(console)),
+		);
+	}
 }
-

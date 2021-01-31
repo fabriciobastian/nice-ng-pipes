@@ -4,11 +4,9 @@ import { map } from 'rxjs/operators';
 
 @Pipe({ name: 'get', pure: true })
 export class GetPipe<T> implements PipeTransform {
-
-  transform(stream: Observable<T>, prop: string | number): Observable<T> {
-    return stream.pipe(
-      map((value: T) => value[prop]),
-    );
-  }
+	transform(stream: Observable<T>, prop: string | number): Observable<T> {
+		return stream.pipe(
+			map((value: T) => value[prop]),
+		);
+	}
 }
-

@@ -4,11 +4,9 @@ import { mapTo } from 'rxjs/operators';
 
 @Pipe({ name: 'mapTo', pure: true })
 export class MapToPipe<T, R> implements PipeTransform {
-
-  transform(stream: Observable<T>, value: R): Observable<R> {
-    return stream.pipe(
-      mapTo(value),
-    );
-  }
+	transform(stream: Observable<T>, value: R): Observable<R> {
+		return stream.pipe(
+			mapTo(value),
+		);
+	}
 }
-
