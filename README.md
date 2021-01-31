@@ -48,7 +48,7 @@ export class AppModule {}
 - [throttleTime](https://rxjs.dev/api/operators/throttleTime)
 
 #### Custom
-- [length]
-- [log]
-- [not]
-- [get]
+- length
+- log
+- not
+- get
